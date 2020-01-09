@@ -10,7 +10,7 @@
 <!--testItems: [angka] jumlah soal -->
         <testItems value="136"/>
 <!--testItemsRandomSequence: [Yes No] apakah urutan soal perlu diacak -->
-		<testItemsRandomSequence value="No"/>
+        <testItemsRandomSequence value="No"/>
 <!--optionsMode: [likert statement] model pilihan jawaban -->
         <optionsMode value="likert"/>
 <!--optionsNums: [angka] jumlah pilihan jawaban per soal -->
@@ -25,7 +25,7 @@
 <!--elements: seluruh simbol elemen dipisahkan dengan sapas -->
         <elements value="MNGE USNG IDTK UDST"/>
 <!--mediaPath: folder tempat menyimpan seluruh media terkait modul ini -->
-		<mediaPath value=""/>
+        <mediaPath value=""/>
 <!--likert: node ini harus ada bila optionsMode = likert -->
         <likert>
             <Option seq="1">Sangat setuju</Option>
@@ -36,8 +36,8 @@
         </likert>
     </META>
     <BookIntro>
-		<!-- HTML Contents -->
-		<![CDATA[
+        <!-- HTML Contents -->
+        <![CDATA[
 <article class="" role="">
 <h2>Intruksi Umum</h2>
 <p>Pada halaman-halaman berikut ini Anda akan menemukan sejumlah pertanyaan mengenai situasi-situasi manajemen. Tugas Anda adalah untuk menilai situasi tersebut dan memberi respon yang menurut Anda tepat untuk situasi atau pertanyaan tersebut, dengan cara memberikan tanda silang (&#9747;) di dalam kotak pada lembar jawab yang telah tersedia.</p>
@@ -50,36 +50,36 @@
 <p>Bukalah halaman berikutnya dan mulailah bekerja.</p>
 </div>
 </article>
-		]]>
+        ]]>
     </BookIntro>
     <BookBody>
         <Section>
-			<SectionIntro>
-				<![CDATA[
+            <SectionIntro>
+                <![CDATA[
 <article class="a-defined-class" role="arole">
 <p>Berdasarkan penelitian terhadap beragam sepatu sport untuk anak muda yang telah dilakukan oleh lembaga independen, Anda sebagai Manager Marketing dari sebuah perusahaan distributor peralatan olahraga, diminta untuk mengidentifikasi beragam peluang pemasaran untuk masing- masing produk sepatu tersebut. Adapun hasil penelitiannya adalah sebagai berikut:</p>
 <figure class="a-defined-class" role=""><img src="fig-1-1.png"></figure>
 </article>
-				]]>
-			</SectionIntro>
+                ]]>
+            </SectionIntro>
 <!--Setiap TestItem (soal) selalu memiliki dua anak: Teaser dan Select. -->
 <!--Pada mode simle Teaser tidak ada isinya. -->
             <TestItem seqId="5" key="A">
-				<Teaser>
-					Berdasarkan penelitian terhadap beragam sepatu sport untuk anak muda yang telah dilakukan oleh lembaga independen, Anda sebagai Manager Marketing dari sebuah perusahaan distributor peralatan olahraga, diminta untuk mengidentifikasi beragam peluang pemasaran untuk masing-masing produk sepatu tersebut. Adapun hasil penelitiannya adalah sebagai berikut:
-				</Teaser>
-				<TeaserTail value="@teaserTail"/>
+                <Teaser>
+                    Berdasarkan penelitian terhadap beragam sepatu sport untuk anak muda yang telah dilakukan oleh lembaga independen, Anda sebagai Manager Marketing dari sebuah perusahaan distributor peralatan olahraga, diminta untuk mengidentifikasi beragam peluang pemasaran untuk masing-masing produk sepatu tersebut. Adapun hasil penelitiannya adalah sebagai berikut:
+                </Teaser>
+                <TeaserTail value="@teaserTail"/>
                 <Select value="@likert"/>
             </TestItem>
             <TestItem seqId="6" key="D">
-				<Teaser/>
-				<TeaserTail/>
+                <Teaser/>
+                <TeaserTail/>
                 <Select>
-                	<Option mark="A">Saya cenderung ke atas</Option>
-					<Option mark="B">Berhenti sejenak untuk merenungkan risiko</Option>
-					<Option mark="C">Saya akan mencatat seluruh detil sepsifikasinya</Option>
-					<Option mark="D">Catat dan laporkan</Option>
-					<Option mark="E">Kalau bukan A, yang lebih pas adalah C</Option>
+                    <Option mark="A">Saya cenderung ke atas</Option>
+                    <Option mark="B">Berhenti sejenak untuk merenungkan risiko</Option>
+                    <Option mark="C">Saya akan mencatat seluruh detil sepsifikasinya</Option>
+                    <Option mark="D">Catat dan laporkan</Option>
+                    <Option mark="E">Kalau bukan A, yang lebih pas adalah C</Option>
                 </Select>
             </TestItem>
         </Section>
