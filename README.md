@@ -1,5 +1,7 @@
 # gaia-resources
 
+__`MODE`: &#9749; &#9752; &#9978; &#129326;__
+
 Kumpulan draft materi Gaia Labs
 
 - [Daftar elemen-tools](./Elements/daftar-elemen-per-tool.csv)
