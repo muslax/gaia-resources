@@ -1,6 +1,6 @@
-# gaia-resources
+# &#9749; gaia-resources
 
-__`MODE`: &#9749; &#9752; &#9978; &#129326;__
+__`MODE`: &#9752; &#9978; &#129326;__
 
 Kumpulan draft materi Gaia Labs
 
