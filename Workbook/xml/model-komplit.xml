@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook id="AIME-89126f9B9222">
+    <META>
+        <moduleId value="AIME-89126f9B9222"/>
+        <moduleName value="AIME Default Module"/>
+        <moduleTitle value=""/>
+        <moduleVersion value=""/>
+<!--bookType: [simple simple-teaser teaser-tail teaser-article-grouped] -->
+        <bookType value="simple-teaser"/>
+<!--testItems: [angka] jumlah soal -->
+        <testItems value="136"/>
+<!--testItemsRandomSequence: [Yes No] apakah urutan soal perlu diacak -->
+		<testItemsRandomSequence value="No"/>
+<!--optionsMode: [likert statement] model pilihan jawaban -->
+        <optionsMode value="likert"/>
+<!--optionsNums: [angka] jumlah pilihan jawaban per soal -->
+        <optionsNums value="5"/>
+<!--optionsSelect: [angka] jumlah pilihan jawaban yang bisa/harus dipilih -->
+        <optionsSelect value="1"/><!-- Semantik: single -->
+<!--tipe evidence: [option writing reported-behavior observed-behavior] -->
+        <evidenceType value="option"/>
+        <releaseDate value="2020-01-19 15:21:52 WIB"/>
+<!--teaserTail: [teks] diisi bila seluruh teaser dalam setiap soal memiliki pertanyaan/pernyataan yang sama -->
+        <teaserTail value="Pilih A, B, C, D, atau E, yang menurut Anda benar."/>
+<!--elements: seluruh simbol elemen dipisahkan dengan sapas -->
+        <elements value="MNGE USNG IDTK UDST"/>
+<!--mediaPath: folder tempat menyimpan seluruh media terkait modul ini -->
+		<mediaPath value=""/>
+<!--likert: node ini harus ada bila optionsMode = likert -->
+        <likert>
+            <Option seq="1">Sangat setuju</Option>
+            <Option seq="2">Setuju</Option>
+            <Option seq="3">Ragu-ragu</Option>
+            <Option seq="4">Tidak setuju</Option>
+            <Option seq="5">Sangat tidak setuju</Option>
+        </likert>
+    </META>
+    <BookIntro>
+		<!-- HTML Contents -->
+		<![CDATA[
+<article class="" role="">
+<h2>Intruksi Umum</h2>
+<p>Pada halaman-halaman berikut ini Anda akan menemukan sejumlah pertanyaan mengenai situasi-situasi manajemen. Tugas Anda adalah untuk menilai situasi tersebut dan memberi respon yang menurut Anda tepat untuk situasi atau pertanyaan tersebut, dengan cara memberikan tanda silang (&#9747;) di dalam kotak pada lembar jawab yang telah tersedia.</p>
+<p>Anda dapat menggunakan kertas buram untuk membuat catatan, menghitung maupun memperkirakan jawaban yang akan Anda berikan. Jika Anda ingin mengubah jawaban, coretlah dengan tanda dua garis sejajar horisontal ( = ) pada kotak yang berisi jawaban yang ingin diubah sehingga menjadi tanda silang yang dicoret ( X ), kemudian tandai jawaban baru dengan tanda silang ( X ). Apabila Anda ingin kembali ke jawaban yang pernah dibatalkan, tandai dengan melingkari. Contoh :</p>
+<figure class="" role=""><img src="tabel-intro.png"></figure>
+<p>Jika Anda punya pertanyaan, ajukanlah sekarang. Pastikan bahwa Anda sudah memahami instruksi yang ada pada saat mulai mengerjakan. Anda mempunyai waktu 75 menit untuk mengerjakan tugas ini.</p>
+<p>Cobalah untuk bekerja secepat dan seakurat mungkin. Jangan terpaku pada 1 soal; jika soal tersebut dirasa sulit, cobalah untuk mengerjakan soal yang lain.</p>
+<p>Anda tidak diperbolehkan membuat coretan apapun dalam buku soal.</p>
+<div class="a-div-class" role="">
+<p>Bukalah halaman berikutnya dan mulailah bekerja.</p>
+</div>
+</article>
+		]]>
+    </BookIntro>
+    <BookBody>
+        <Section>
+			<SectionIntro>
+				<![CDATA[
+<article class="a-defined-class" role="arole">
+<p>Berdasarkan penelitian terhadap beragam sepatu sport untuk anak muda yang telah dilakukan oleh lembaga independen, Anda sebagai Manager Marketing dari sebuah perusahaan distributor peralatan olahraga, diminta untuk mengidentifikasi beragam peluang pemasaran untuk masing- masing produk sepatu tersebut. Adapun hasil penelitiannya adalah sebagai berikut:</p>
+<figure class="a-defined-class" role=""><img src="fig-1-1.png"></figure>
+</article>
+				]]>
+			</SectionIntro>
+<!--Setiap TestItem (soal) selalu memiliki dua anak: Teaser dan Select. -->
+<!--Pada mode simle Teaser tidak ada isinya. -->
+            <TestItem seqId="5" key="A">
+				<Teaser>
+					Berdasarkan penelitian terhadap beragam sepatu sport untuk anak muda yang telah dilakukan oleh lembaga independen, Anda sebagai Manager Marketing dari sebuah perusahaan distributor peralatan olahraga, diminta untuk mengidentifikasi beragam peluang pemasaran untuk masing-masing produk sepatu tersebut. Adapun hasil penelitiannya adalah sebagai berikut:
+				</Teaser>
+				<TeaserTail value="@teaserTail"/>
+                <Select value="@likert"/>
+            </TestItem>
+            <TestItem seqId="6" key="D">
+				<Teaser/>
+				<TeaserTail/>
+                <Select>
+                	<Option mark="A">Saya cenderung ke atas</Option>
+					<Option mark="B">Berhenti sejenak untuk merenungkan risiko</Option>
+					<Option mark="C">Saya akan mencatat seluruh detil sepsifikasinya</Option>
+					<Option mark="D">Catat dan laporkan</Option>
+					<Option mark="E">Kalau bukan A, yang lebih pas adalah C</Option>
+                </Select>
+            </TestItem>
+        </Section>
+    </BookBody>
+    <Epilog><strong>Terimakasih</strong>, Anda telah menyelesaikan seluruh rangkaian test ini.</Epilog>
+</Workbook>
