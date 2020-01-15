@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook id="">
+    <Meta>
+        <!-- moduleName: nama modul -->
+        <moduleName value="AIME Default"/>
+        <!-- moduleTitle: judul modul -->
+        <moduleTitle value=""/>
+        <!-- mediaPath: folder media, dikosongkan -->
+        <mediaPath value=""/>
+        <!-- evidenceType: option / writing / behavior -->
+        <evidenceType value="option"/>
+        <!-- testItems: jumlah soal -->
+        <testItems value="136"/>
+        <!-- itemsType: (tipe soal) simple / teaser / teaser-grouped -->
+        <itemsType value="teaser"/>
+        <!-- optionsType: (tipe pilihan) statement / predefined -->
+        <optionsType value="predefined"/>
+        <!-- optionsNums: jumlah pilihan -->
+        <optionsNums value="5"/>
+        <!-- optionsSelect: jumlah pilihan yang boleh dipilih -->
+        <optionsSelect value="1"/>
+    </Meta>
+    <!-- PredefinedItems: item-item yang dipakai berulang -->
+    <PredefinedItems>
+        <!-- TeaserTail: ekor pertanyaan atau pertanyaan penutup -->
+        <TeaserTail name="default" value="Menurut Anda pilihan mana yang paling pas?"/>
+        <!-- Options: menyimpan pilihan jawaban yang berulang, harus diberi nama -->
+        <Options name="likert">
+            <Option role="1">Sangat setuju</Option>
+            <Option role="2">Setuju</Option>
+            <Option role="3">Ragu-ragu</Option>
+            <Option role="4">Tidak setuju</Option>
+            <Option role="5">Sangat tidak setuju</Option>
+        </Options>
+        <!-- Options: menyimpan pilihan jawaban yang berulang, harus diberi nama -->
+        <Options name="abc">
+            <Option role="1">YES</Option>
+            <Option role="2">NO</Option>
+            <Option role="3">NO BUT OK</Option>
+        </Options>
+    </PredefinedItems>
+    <BookIntro>
+<![CDATA[
+<h2>Petunjuk Pemakaian</h2>
+<p>Here’s a small <em>programming problem</em>: write a function that takes a string and
+returns the first word it finds in that string. If the function doesn’t find a
+space in the string, the whole string must be one word, so the entire string
+should be returned.</p>
+]]>
+    </BookIntro>
+    <BookBody>
+        <!-- Kasus GPQ (simple) -->
+        <Section>
+            <!-- seq: nomor urut di client, uSeq: nomor urut di WB -->
+            <TestItem seq="" iSeq="001">
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="002">
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="003">
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                </Select>
+            </TestItem>
+        </Section>
+        
+        <!-- teaser -->
+        <Section>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk motor apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk mobil apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk kapal apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+        </Section>
+        
+        <!-- teaserTail -->
+        <Section>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk motor apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <TeaserTail use="default"/>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk mobil apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <TeaserTail use="default"/>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk kapal apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <TeaserTail use="default"/>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+        </Section>
+        
+        <!-- ABC -->
+        <Section>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk motor apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="abc"/>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk mobil apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="abc"/>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk kapal apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="abc"/>
+            </TestItem>
+        </Section>
+        
+        <!-- Likert -->
+        <Section>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk motor apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="likert"/>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk mobil apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="likert"/>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk kapal apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select use="likert"/>
+            </TestItem>
+        </Section>
+        
+        <!-- Article -->
+        <Section>
+            <Article>
+                <![CDATA[
+                <h2>Petunjuk Pemakaian</h2>
+                <p>Here’s a small <em>programming problem</em>: write a function that takes a string and
+                returns the first word it finds in that string. If the function doesn’t find a
+                space in the string, the whole string must be one word, so the entire string
+                should be returned.</p>
+                ]]>
+            </Article>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk motor apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk mobil apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+            <TestItem seq="" iSeq="" role="">
+                <Teaser>Merk kapal apa yang menurut Anda paling cocok untuk Anda miliki?</Teaser>
+                <Select>
+                    <Option role="TY">Pilihan pertama</Option>
+                    <Option role="FD">Pilihan kedua</Option>
+                    <Option role="FX">Pilihan ketiga</Option>
+                    <Option role="DX">Pilihan keempat</Option>
+                </Select>
+            </TestItem>
+        </Section>
+    </BookBody>
+    <Elements>
+        <Element symbol="FT">
+            <Alias></Alias>
+            <DefinitionAlias></DefinitionAlias>
+            
+        </Element>
+    </Elements>
+</Workbook>
