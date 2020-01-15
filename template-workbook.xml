@@ -9,6 +9,8 @@
         <mediaPath value=""/>
         <!-- evidenceType: option / writing / behavior -->
         <evidenceType value="option"/>
+        <!-- evidence: kolom apa saja yang harus di-save sbg evidence -->
+        <evidence value="nomor, kode/elemen, statement"/>
         <!-- testItems: jumlah soal -->
         <testItems value="136"/>
         <!-- itemsType: (tipe soal) simple / teaser / teaser-grouped -->
